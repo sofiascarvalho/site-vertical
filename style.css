@@ -11,6 +11,7 @@ ul, ol, li{
 }
 html, body{
  scroll-behavior: smooth;
+ font-family: "Righteous", sans-serif;
 }
 
 header{
@@ -37,18 +38,56 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     height: 100vh;
 }
 
-#vermelho{
-    background-color: #ff6b6b;
+#moranguinho{
+    background-color: #fa96ac;
+    display: flex;
 }
-#verde{
-    background-color: #1dd1a1;
+#moranguinho img{
+    width: 55vw;
+    margin-left: 42vh;
 }
-#azul{
+
+#cachinho-de-framboesa{
+    background-color: #fb3a9b;
+}
+#cachinho-de-framboesa img{
+    width: 18vw;
+    margin-top: 17vh;
+    margin-right: 5vh;
+}
+
+#amora-linda{
     background-color: #54a0ff;
 }
-#amarelo{
+#amora-linda img{
+    width: 17vw;
+    margin-top: 17vh;
+    margin-left: 5vh;
+}
+
+#gotinha-de-limao{
     background-color: #feca57;
 }
-#roxo{
-    background-color: purple;
+#gotinha-de-limao img{
+    width: 22vw;
+    margin-top: 16vh;
+    margin-left: 5vh;
+}
+
+#ameixinha{
+    background-color: #800080;
+}
+#ameixinha img{
+    width: 25vw;
+    margin-top: 18vh;
+    margin-left: 5vh;
+}
+
+#laranjinha{
+    background-color: #f47621;
+}
+#laranjinha img{
+    width: 28vw;
+    margin-top: 19vh;
+    margin-left: 1vh;
 }
