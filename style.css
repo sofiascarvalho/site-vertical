@@ -11,11 +11,12 @@ ul, ol, li{
 }
 html, body{
  scroll-behavior: smooth;
- font-family: "Righteous", sans-serif;
+ font-family: "Arial", sans-serif;
+ color: white;
 }
 
 header{
-    background-color: #333;
+    background-color: #000;
     position: fixed;
     width: 100vw;
 }
@@ -35,59 +36,102 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
 }
 
 .grupo{
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
 }
 
 #moranguinho{
     background-color: #fa96ac;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #moranguinho img{
-    width: 55vw;
-    margin-left: 42vh;
+    width: 65vw;
 }
+#moranguinho h2{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+#moranguinho p{
+    font-size: 30px;
+    color: white;
+    width: 900px;
+}
+
+
 
 #cachinho-de-framboesa{
     background-color: #fb3a9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #cachinho-de-framboesa img{
-    width: 18vw;
-    margin-top: 17vh;
-    margin-right: 5vh;
+    width: 16vw;
+    margin-top: 8vh;
 }
 
 #amora-linda{
     background-color: #54a0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #amora-linda img{
     width: 17vw;
-    margin-top: 17vh;
-    margin-left: 5vh;
+    margin-top: 8vh;
 }
 
 #gotinha-de-limao{
     background-color: #feca57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #gotinha-de-limao img{
     width: 22vw;
-    margin-top: 16vh;
-    margin-left: 5vh;
+    margin-top: 8vh;
 }
 
 #ameixinha{
     background-color: #800080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #ameixinha img{
     width: 25vw;
-    margin-top: 18vh;
-    margin-left: 5vh;
+    margin-top: 8vh;
 }
 
 #laranjinha{
     background-color: #f47621;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #laranjinha img{
     width: 28vw;
-    margin-top: 19vh;
-    margin-left: 1vh;
+    margin-top: 8vh;
+}
+
+
+.grupo h2{
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.grupo p{
+    font-size: 30px;
+    width: 900px;
+
+}
+.grupo div{
+    text-align: center;
 }
